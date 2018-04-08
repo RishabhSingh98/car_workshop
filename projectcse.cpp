@@ -13,7 +13,7 @@ class Service_type
 		class derived:public Service_type
 		{
 			public:
-			void Accindental()
+			void accindental()
 			{
 				int AC,UI;
 			const String type="Accidential Case";
@@ -35,7 +35,42 @@ class Service_type
 			cout<<"User Unique Id";
 			cin>>"UI";
 		}
-		void norm
+		void checkup()
+		{
+		int C,UI
+			const String type="Normal Checkup";
+			cout<<"Vehicle Name";
+			get_line(cin,vehicle name )
+			cout<<"Enter The Amount of Regular Service";
+			cin>>RS;
+			cout<<"User Unique Id";
+			cin>>"UI";	
+		}
+		void denting()
+		{
+			int C,UI
+			const String type="Denting and Painting";
+			cout<<"Vehicle Name";
+			get_line(cin,vehicle name )
+			cout<<"Enter The Amount of Danting and Painting ";
+			cin>>D;
+			cout<<"User Unique Id";
+			cin>>"UI";	
+		}
+		void washing()
+		{
+			int W;
+		const String type="Washing";
+		cout<<"Enter the Amount of Washing";
+		cin>>W;
+			cout<<"User Unique Id";
+			cin>>"UI";
+	}
+	void resplacement()
+	{
+		String name;
+		cout<<"Part Resplacement" 
+	}
 			
 			
 			
